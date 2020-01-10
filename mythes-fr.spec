@@ -1,7 +1,7 @@
 Name: mythes-fr
 Summary: French thesaurus
 Version: 2.3
-Release: 3%{?dist}
+Release: 4%{?dist}
 Source: http://www.dicollecte.org/download/fr/thesaurus-v%{version}.zip
 Group: Applications/Text
 URL: http://www.dicollecte.org/home.php?prj=fr
@@ -43,6 +43,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.3-4
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.3-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
